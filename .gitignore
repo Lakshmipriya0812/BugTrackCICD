@@ -1,0 +1,57 @@
+# Ignore Visual Studio for Mac / VS Code config folders
+.vscode/
+.idea/
+
+# Ignore build output
+/bin/
+/obj/
+# Ignore obj directories
+**/obj/
+
+# Ignore the user-specific configuration files for Visual Studio
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Ignore the .NET Core SDK and NPM package manager files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore the database file if you are using SQLite
+*.db
+
+# Ignore logs and other temporary files
+*.log
+*.swp
+*.swo
+
+# Ignore any environment variables file
+.env
+
+# Ignore NuGet package directories
+.nuget/
+
+# Ignore the publish folder for deployment
+/publish/
+
+# Ignore generated files from ASP.NET Core Identity
+appsettings.Development.json
+appsettings.json
+
+# Ignore built or minified CSS/JS files
+wwwroot/css/*.min.css
+wwwroot/js/*.min.js
+
+# Ignore lib/ folder if you're using a package manager to install libraries
+wwwroot/lib/
+
+# Keep other static assets
+!wwwroot/css/site.css
+!wwwroot/js/site.js
+!wwwroot/favicon.ico
+
+# Ignore Visual Studio folder
+.vs/
+
